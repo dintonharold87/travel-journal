@@ -1,5 +1,6 @@
-export default [
+const data= [
   {
+    id: 1,
     title: "Mount Fuji",
     location: "JAPAN",
     googleMapsUrl:
@@ -11,6 +12,7 @@ export default [
     image: "japan.jpeg",
   },
   {
+    id: 2,
     title: "Geirangerfjord",
     location: "NORWAY",
     googleMapsUrl:
@@ -22,6 +24,7 @@ export default [
     image: "norway.jpeg",
   },
   {
+    id: 3,
     title: "Sydney Opera House",
     location: "AUSTRALIA",
     googleMapsUrl:
@@ -33,3 +36,5 @@ export default [
     image: "australia.jpeg",
   },
 ];
+
+export default data;
